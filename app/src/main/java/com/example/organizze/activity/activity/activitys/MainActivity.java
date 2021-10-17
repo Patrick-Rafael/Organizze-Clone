@@ -64,9 +64,6 @@ public class MainActivity extends IntroActivity {
         );
 
 
-
-
-
     }
 
     @Override
@@ -92,6 +89,7 @@ public class MainActivity extends IntroActivity {
     public void verificarUsuarioLogado(){
 
         autenticacao = ConfiguracaoFireBase.getFirebaseAutenticacao();
+        autenticacao.signOut();
 
         if(autenticacao.getCurrentUser() != null){
 

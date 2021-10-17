@@ -14,12 +14,33 @@
         <!-- Customize your theme here. -->
     </style>
 
+
     <style name="Theme.Organizze.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
     <style name="Theme.Organizze.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="Theme.Organizze.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name= "despesaTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimaryDespesas</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDespesas</item>
+        <item name="colorAccent">@color/colorAccentDespesas</item>
+
+    </style>
+
+    <style name= "receitaTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimaryReceitas</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkReceitas</item>
+        <item name="colorAccent">@color/colorAccentReceitas</item>
+
+    </style>
+
+
 </resources>

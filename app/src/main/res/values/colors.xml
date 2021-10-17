@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Cores Despesas !-->
+    <color name="colorPrimaryDespesas">#Ff706A</color>
+    <color name="colorPrimaryDarkDespesas">#E66560</color>
+    <color name="colorAccentDespesas">#FF706A</color>
+
+    <!-- Cores Receitas !-->
+    <color name="colorPrimaryReceitas">#00D39E</color>
+    <color name="colorPrimaryDarkReceitas">#00BE8B</color>
+    <color name="colorAccentReceitas">#00D39E</color>
+
 </resources>
