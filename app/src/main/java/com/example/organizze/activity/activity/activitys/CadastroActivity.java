@@ -34,6 +34,11 @@ public class CadastroActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro);
 
+        //Mudar titulo da toolBar
+        //getSupportActionBar().setTitle("Cadastro");
+
+
+
         ids();
 
         buttonCadastrar.setOnClickListener(new View.OnClickListener() {

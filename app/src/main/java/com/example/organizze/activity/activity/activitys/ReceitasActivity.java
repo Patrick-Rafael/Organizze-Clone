@@ -66,6 +66,8 @@ public class ReceitasActivity extends AppCompatActivity {
 
             movimentacao.salvar(data);
 
+            finish();
+
         }
 
 
